@@ -321,6 +321,7 @@ p {
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
+	gap: 5px;
 }
 
 #services .service-item {
