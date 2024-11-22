@@ -523,10 +523,11 @@ p {
 }
 
 #about .col-left .about-img {
-	height: 100%;
-	width: 100%;
-	position: relative;
-	border: 10px solid white;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 10px solid #a0c1e8;
+    border-radius: 5px;
 }
 
 #about .col-left .about-img::after {
