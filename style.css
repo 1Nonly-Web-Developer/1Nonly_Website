@@ -263,6 +263,10 @@ p {
 	animation-delay: 1s;
 }
 
+.cta{
+	border-radius: 5px;
+}
+
 #hero h1:nth-child(1) {
 	animation-delay: 1s;
 }
@@ -460,16 +464,23 @@ p {
 }
 
 .visit-btn a:hover{
-	color: crimson;
+	color: white;
 }
 
-.visit-btn {
+.visit-btn button:hover{
+	background-color: crimson;
+}
+
+.visit-btn button {
 	font-size: 2rem;
 	padding: 20px 30px;
 	border: 1px solid white;
 	margin: 20px 0px;
+	color: white;
 	cursor: pointer;
 	transition: 0.3s ease;
+	border-radius: 5px;
+	background: transparent;
 }
 
 /* End Projects section */
@@ -508,6 +519,7 @@ p {
 	margin-bottom: 50px;
 	padding: 10px 20px;
 	font-size: 2rem;
+	border-radius: 4px;
 }
 
 #about .col-left .about-img {
